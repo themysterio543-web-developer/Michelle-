@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="body.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card</title>
+</head>
+
+<body>
+    <button class="secret-button" birthdaylabel="Secret button">🎉</button>
+    <audio id="birthday-audio" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    <button class="music-toggle" aria-label="Play birthday song">🎉 Celebrate Michelle</button>
+
+    <div class="card">
+        <div class="photo-wrap">
+            <img src="WhatsApp Image 2026-10-12 at 10.25.26.jpeg" alt="Birthday portrait of Michelle">
+            <span class="photo-badge">Forever glowing ✨</span>
+        </div>
+
+        <div class="card-inner">
+            <p class="tagline">To the one who lights up every room</p>
+            <h1>Happy Birthday, Michelle!</h1>
+            <p class="aka-line">A.K.A MY HOME-GIRL</p>
+            <p>Hey Michelle, today is your day, and I’m so happy to celebrate you.</p>
+            <p>Your laughter, kindness, and beautiful personality make life brighter, and I’m so lucky to have you in my
+                life.</p>
+            <p>May your year be full of joy, wild dreams, sweet memories, and the kind of happiness that makes you smile
+                nonstop.</p>
+        </div>
+
+        <div class="balloons">
+            🎈🎈🎈
+        </div>
+    </div>
+
+    <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+    <button class="confetti-toggle" aria-label="Toggle confetti">🎊 Confetti</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
